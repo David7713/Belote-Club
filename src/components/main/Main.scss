@@ -1,0 +1,155 @@
+//  HOME PAGE STYLES ================>
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 47rem;
+    background-color: #001233;
+}
+
+.homeContent {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.homeContent h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+.homeContent p {
+    font-size: 1.2rem;
+}
+
+.logo {
+    background-image: url("C:/Users/HDcomputers/Desktop/Belote-Club/belote-club/public/assets/logo.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 15vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+.qrSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qrCode {
+    background-image: url("C:/Users/HDcomputers/Desktop/Belote-Club/belote-club/public/assets/qrCode.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 12rem;
+    height: 12rem;
+    margin-top: 50px;
+
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.apple {
+    background-image: url("C:/Users/HDcomputers/Desktop/Belote-Club/belote-club/public/assets/apple.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 170px;
+    height: 50px;
+    margin-right: 20px;
+
+}
+.android {
+    background-image: url("C:/Users/HDcomputers/Desktop/Belote-Club/belote-club/public/assets/android.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 170px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.about {
+    width: 100%;
+    height: 47rem;
+    background-color: #D43933;
+}
+
+.contact {
+    width: 100%;
+    height: 47rem;
+    background-color: #525e75c6;
+}
+
+.intro {
+    width: 100%;
+    height: 47rem;
+    background-color: #001233;
+}
+
+.info {
+    width: 100%;
+    height: 47rem;
+    background-color: #D43933;
+}
+
+.footer {
+    width: 100%;
+    height: 47rem;
+    background-color: #525e75c6;
+}
+
+
+
+#fp-nav ul li .fp-tooltip {
+    color: white;
+}
+
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background-color: rgba(255, 255, 255, 0.729);
+}
+
+
+.fp-watermark {
+    display: none;
+}
+
+
+
+
+
+// MEDIA QUERIES ========================>
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .logo {
+        left: 15vw;
+        width: 15vw;
+        height: 15vw;
+    }
+}
+
+/* Media Query for larger screens */
+@media (min-width: 1200px) {
+    .logo {
+        left: 60px;
+        width: 150px;
+        height: 150px;
+    }
+}
