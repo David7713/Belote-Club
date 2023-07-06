@@ -32,13 +32,13 @@
 }
 
 .logo {
-  background-image: url("C:/Users/HDcomputers/Desktop/Belote-Club/belote-club/public/assets/logo.svg");
+  background-image: url("C:/Users/HDcomputers/Desktop/Belote-Club/belote-club/src/components/assets/logo.svg");
   background-repeat: no-repeat;
   position: absolute;
   top: 0;
-  left: 15vw;
-  width: 10vw;
-  height: 10vw;
+  left: 0.9375rem;
+  width: 0.625rem;
+  height: 0.625rem;
 }
 
 .qrSection {
@@ -58,12 +58,12 @@
 }
 
 .qrCode {
-  background-image: url("C:/Users/HDcomputers/Desktop/Belote-Club/belote-club/public/assets/qrCode.png");
+  background-image: url("C:/Users/HDcomputers/Desktop/Belote-Club/belote-club/src/components/assets/qrCode.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 12rem;
   height: 12rem;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .socialMedia {
@@ -75,36 +75,153 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
-.apple {
-  background-image: url("C:/Users/HDcomputers/Desktop/Belote-Club/belote-club/public/assets/apple.png");
+.appStore {
+  background-image: url("C:/Users/HDcomputers/Desktop/Belote-Club/belote-club/src/components/assets/Appstore.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 170px;
-  height: 50px;
-  margin-right: 20px;
+  width: 10.625rem;
+  height: 3.125rem;
+  margin-right: 1.5rem;
+  background-size: contain;
 }
 
-.android {
-  background-image: url("C:/Users/HDcomputers/Desktop/Belote-Club/belote-club/public/assets/android.jpg");
+.playMarket {
+  background-image: url("C:/Users/HDcomputers/Desktop/Belote-Club/belote-club/src/components/assets/Playmarket.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 170px;
-  height: 50px;
+  width: 10.625rem;
+  height: 3.125rem;
+  background-size: contain;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .logo {
+    left: 0.9375rem;
+    width: 0.9375rem;
+    height: 0.9375rem;
+  }
+}
+
+/* Media Query for larger screens */
+@media (min-width: 1200px) {
+  .logo {
+    left: 3.75rem;
+    width: 9.375rem;
+    height: 9.375rem;
+  }
 }
 
 .about {
+  background-color: #D43933;
   width: 100%;
   height: 47rem;
-  background-color: #D43933;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.aboutContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2.667rem;
+}
+
+.verticalPhoneImage {
+  width: 20.625rem;
+}
+
+.aboutTextContent {
+  margin-left: 2.667rem;
+}
+
+.aboutTextHeader {
+  margin-bottom: 1.333rem;
+  font-size: 1.875rem;
+}
+
+/* MEDIA QUERIES ========================>ABOUT */
+@media (max-width: 767px) {
+  /* Adjustments for mobile devices */
+  .aboutContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .verticalPhoneImage {
+    width: 17.5rem;
+    margin-right: 0;
+    margin-bottom: 1.333rem;
+  }
+  .aboutTextContent {
+    margin-left: 0;
+    text-align: center;
+  }
 }
 
 .contact {
   width: 100%;
   height: 47rem;
   background-color: #525e75c6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contactContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4.375rem;
+}
+
+.horizontalPhoneImage {
+  width: 46.875rem;
+  height: 21.875rem;
+}
+
+.contactTextContent {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.contactTextParagraph {
+  margin-top: 0.625rem;
+}
+
+@media (max-width: 767px) {
+  /* Adjustments for mobile devices */
+  .horizontalPhoneImage {
+    max-width: 100%;
+    max-height: 12.5rem;
+  }
 }
 
 .intro {
@@ -113,16 +230,140 @@
   background-color: #001233;
 }
 
+.introContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.IntroTextHeader {
+  margin-bottom: 1.333rem;
+  font-size: 1.875rem;
+}
+
+/* MEDIA QUERIES ========================>Intro */
+@media (max-width: 767px) {
+  /* Adjustments for mobile devices */
+  .introContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .verticalPhoneImage {
+    width: 15.625rem;
+  }
+  .IntroTextParagraph {
+    margin-bottom: 1rem;
+  }
+}
+
 .info {
+  background-color: #D43933;
   width: 100%;
   height: 47rem;
-  background-color: #D43933;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.infoContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2.667rem;
+}
+
+.verticalPhoneImage {
+  width: 20.625rem;
+}
+
+.infoTextContent {
+  margin-left: 2.667rem;
+}
+
+.infoTextHeader {
+  margin-bottom: 1.333rem;
+  font-size: 1.875rem;
+}
+
+/* MEDIA QUERIES ========================>Info */
+@media (max-width: 767px) {
+  /* Adjustments for mobile devices */
+  .infoContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .verticalPhoneImage {
+    width: 12.70rem;
+    margin-right: 0;
+    margin-bottom: 1.333rem;
+  }
+  .infoTextContent {
+    margin-left: 0;
+    text-align: center;
+  }
 }
 
 .footer {
   width: 100%;
   height: 47rem;
   background-color: #525e75c6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 47rem;
+}
+
+.footerContent {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.allRightsReservedSection {
+  font-size: 1rem;
+  margin-top: 5rem;
+}
+
+.footerParagraphText {
+  margin-top: 1rem;
 }
 
 #fp-nav ul li .fp-tooltip {
@@ -136,23 +377,5 @@
 
 .fp-watermark {
   display: none;
-}
-
-/* Media Query for smaller screens */
-@media (max-width: 768px) {
-  .logo {
-    left: 15vw;
-    width: 15vw;
-    height: 15vw;
-  }
-}
-
-/* Media Query for larger screens */
-@media (min-width: 1200px) {
-  .logo {
-    left: 60px;
-    width: 150px;
-    height: 150px;
-  }
 }
 /*# sourceMappingURL=Main.css.map */

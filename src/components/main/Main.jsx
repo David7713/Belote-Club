@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
 import fullpage from 'fullpage.js';
 import './Main.css';
+import verticalPhoneImage from '../assets/verticalPhoneImage.png'
+import horizontalPhoneImage from '../assets/horizontalPhoneImage.png'
+
 
 const Main = () => {
 
@@ -27,8 +30,8 @@ const Main = () => {
      <div className='qrSection'>
           <a href="#"> <div className='qrCode'></div> </a>
          <div className='socialMedia'>
-          <a href="#"><div className='apple'></div></a>
-          <a href="#"> <div className='android'></div></a>
+          <a href="#"><div className='appStore'> </div></a>
+          <a href="#"> <div className='playMarket'></div></a>
          </div>
      </div>
    </div>
@@ -36,21 +39,100 @@ const Main = () => {
 
 
 
-      <div className="section about">
-        <p>Section 2</p>
-      </div>
+  <div className="section about">
+   <div className='aboutContent'>
+     <div className='phoneVertical'> <img className='verticalPhoneImage' src={verticalPhoneImage} alt="Belote" /></div>
+         <div className='aboutTextContent'>
+          <h2 className='aboutTextHeader'>Your ultimate Belote companion, anytime, anywhere!</h2>
+          <p className='aboutTextParagraph'> Discover the captivating world of Belote, where <br></br>strategy meets excitement, and friendships are forged through every<br></br> card played!Immerse yourself in the rich tradition of Belote, where every move counts, and <br></br>the thrill of outsmarting your opponents brings<br></br> unparalleled satisfaction</p>
+        </div>
+     </div>
+       
+  </div>
+
+
+
+
+
+
+
       <div className="section contact">
-        <p>Section 3</p>
+        <div className='contactContent'>
+        <div className='phoneHorizontal'> <img className='horizontalPhoneImage' src={horizontalPhoneImage}alt="Belote" /></div>
+        <div className='contactTextContent'>
+        <h2 className='contactTextHeader'>Join the Belote community and play like a pro</h2>
+        <p className='contactTextParagraph'>Discover the captivating world of Belote, where <br></br>strategy meets excitement, and friendships are forged through every<br></br> card played!Immerse yourself in the rich tradition of Belote, where every move counts, and <br></br>the thrill of outsmarting your opponents brings<br></br> unparalleled satisfaction</p>
+        </div>
+        </div>
       </div>
+
+
+
+
+
+
+
+
       <div className="section intro">
-        <p>Section 4</p>
+        <div className='introContent'>
+        <div className='IntroTextContent'>
+          <h2 className='IntroTextHeader'>Your ultimate Belote companion, anytime, anywhere!</h2>
+          <p className='IntroTextParagraph'> Discover the captivating world of Belote, where <br></br>strategy meets excitement, and friendships are forged through every<br></br> card played!Immerse yourself in the rich tradition of Belote, where every move counts, and <br></br>the thrill of outsmarting your opponents brings<br></br> unparalleled satisfaction</p>
+        </div>
+        <div className='phoneVertical'> <img className='verticalPhoneImage' src={verticalPhoneImage} alt="Belote" /></div>
+        </div>
       </div>
-      <div className="section info">
-        <p>Section 5</p>
-      </div>
-      <div className="section footer">
-        <p>Section 6</p>
-      </div>
+
+
+
+
+
+
+
+
+
+
+      
+  <div className="section info">
+      <div className='infoContent'>
+     <div className='phoneVertical'> <img className='verticalPhoneImage' src={verticalPhoneImage} alt="Belote" /></div>
+         <div className='infoTextContent'>
+          <h2 className='infoTextHeader'>Your ultimate Belote companion, anytime, anywhere!</h2>
+          <p className='infoTextParagraph'> Discover the captivating world of Belote, where <br></br>strategy meets excitement, and friendships are forged through every<br></br> card played!Immerse yourself in the rich tradition of Belote, where every move counts, and <br></br>the thrill of outsmarting your opponents brings<br></br> unparalleled satisfaction</p>
+        </div>
+     </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div className="section footer">   
+    <div className='footerContent'>
+        <h1 className='footerHeaderText'>Experience the Thrill of Belote, the Card Game Masterpiece!</h1>
+        <p className='footerParagraphText'>Play Anytime, Anywhere: No need to wait for a card-playing partner or gather a group of friends. Our app allows you<br></br> to enjoy Belote whenever and wherever you want, right from the palm of your hand. <br></br>Challenge your skills against AI opponents or connect with friends for exciting multiplayer battles.</p>
+     <div className='qrSection'>
+          <a href="#"> <div className='qrCode'></div> </a>
+         <div className='socialMedia'>
+          <a href="#"><div className='appStore'> </div></a>
+          <a href="#"> <div className='playMarket'></div></a>
+        </div>
+     </div>
+     <p className='allRightsReservedSection'>All Rights Reserved © Belote Club 2023</p>
+  </div>
+
+ </div>
+
+
     </div>
 
   );
