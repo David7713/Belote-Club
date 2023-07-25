@@ -312,7 +312,6 @@
   .horizontalPhoneImage {
     width: 50.875rem;
     height: 21.875rem;
-    /* Adjust the height and width as needed for desktop devices */
   }
   .contactTextHeader {
     font-size: 1.7rem;
@@ -338,7 +337,6 @@
   .horizontalPhoneImage {
     max-width: 100%;
     max-height: 12.5rem;
-    /* Adjust the height as needed for mobile devices */
   }
   .contactTextHeader {
     font-size: 1.3rem;
@@ -452,10 +450,6 @@
   font-size: 1.8rem;
 }
 
-.infoTextParagraph {
-  font-size: 1.5rem;
-}
-
 /* MEDIA QUERIES  Info*/
 @media (min-width: 1024px) {
   /* Adjustments for desktop devices */
@@ -477,7 +471,6 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    /* Center the items horizontally */
     margin-left: 1rem;
   }
   .verticalPhoneImage {
@@ -508,7 +501,6 @@
   .infoTextContent {
     margin-left: 0;
     text-align: center;
-    margin-left: 3rem;
   }
   .infoTextHeader {
     font-size: 1.3rem;
@@ -617,6 +609,25 @@
   }
   .homeTextHeader, .aboutTextHeader, .contactTextHeader, .introTextHeader, .infoTextHeader, .footerTextHeader {
     font-size: 3rem;
+  }
+  .logo {
+    width: 20vh;
+    height: 20vh;
+  }
+  .telegram {
+    width: 31rem;
+    height: 16rem;
+  }
+  .appStore {
+    width: 270px;
+    height: 100px;
+  }
+  .playMarket {
+    width: 270px;
+    height: 100px;
+  }
+  #fp-nav.fp-show-active a.active + .fp-tooltip {
+    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=Main.css.map */
