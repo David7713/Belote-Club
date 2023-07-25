@@ -120,7 +120,7 @@ const Main = () => {
 
  <div className="section footer">   
     <div className='footerContent'>
-        <h1 className='footerHeaderText'>Experience the Thrill of Belote, the Card Game Masterpiece!</h1>
+        <h1 className='footerTextHeader'>Experience the Thrill of Belote, the Card Game Masterpiece!</h1>
         <p className='footerTextParagraph'>Play Anytime, Anywhere: No need to wait for a card-playing partner or gather a group of friends. Our app allows you<br></br> to enjoy Belote whenever and wherever you want,right from the palm of your hand.</p>
      <div className='linksSection'>
           <a href="https://t.me/BeloteClub" target="_blank"> <div className='telegram'></div> </a>
