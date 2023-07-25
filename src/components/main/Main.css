@@ -21,6 +21,8 @@
 .homeContent {
   text-align: center;
   margin-bottom: 5rem;
+  position: relative;
+  z-index: 1;
 }
 
 .homeTextHeader {
@@ -40,6 +42,7 @@
   left: 15vw;
   width: 10vw;
   height: 10vw;
+  z-index: 0;
 }
 
 .linksSection {
@@ -178,7 +181,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  /* Center the content vertically */
 }
 
 .aboutContent {
@@ -327,7 +329,7 @@
     font-size: 1.5rem;
   }
   .contactTextHeader {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -359,9 +361,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 3rem;
 }
 
-.IntroTextHeader {
+.introTextHeader {
   margin-bottom: 1.333rem;
   font-size: 1.7rem;
 }
@@ -369,7 +372,7 @@
 /* MEDIA QUERIES  Intro*/
 @media (min-width: 1024px) {
   /* Adjustments for desktop devices */
-  .IntroTextHeader {
+  .introTextHeader {
     font-size: 1.7rem;
   }
 }
@@ -383,11 +386,11 @@
             flex-direction: row;
     margin-right: 1rem;
   }
-  .IntroTextContent {
+  .introTextContent {
     text-align: center;
     font-size: 1.5rem;
   }
-  .IntroTextHeader {
+  .introTextHeader {
     font-size: 1.8rem;
   }
 }
@@ -401,7 +404,7 @@
             flex-direction: column;
     text-align: center;
   }
-  .IntroTextHeader {
+  .introTextHeader {
     font-size: 1.3rem;
   }
 }
@@ -441,12 +444,16 @@
 }
 
 .infoTextContent {
-  margin-left: 2.667rem;
+  margin-left: 4.444rem;
 }
 
 .infoTextHeader {
   margin-bottom: 1.333rem;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
+}
+
+.infoTextParagraph {
+  font-size: 1.5rem;
 }
 
 /* MEDIA QUERIES  Info*/
@@ -501,6 +508,7 @@
   .infoTextContent {
     margin-left: 0;
     text-align: center;
+    margin-left: 3rem;
   }
   .infoTextHeader {
     font-size: 1.3rem;
@@ -581,5 +589,34 @@
 
 .fp-watermark {
   display: none;
+}
+
+@media (min-width: 1600px) {
+  /* Add custom styles for the dots at this resolution */
+  /* Increase the size of the active navigation dot */
+  #fp-nav ul li a.active span {
+    width: 15px;
+    height: 15px;
+    /* Add any other styles for the active dot if needed */
+  }
+  .verticalPhoneImage {
+    width: 35rem;
+  }
+  .horizontalPhoneImage {
+    width: 60.875rem;
+    height: 29.875rem;
+  }
+  /* Optional: Adjust styles for the default dots at this resolution */
+  #fp-nav ul li a span,
+  .fp-slidesNav ul li a span {
+    width: 8px;
+    height: 8px;
+  }
+  .homeTextParagraph, .aboutTextParagraph, .contactTextParagraph, .introTextParagraph, .infoTextParagraph, .footerTextParagraph {
+    font-size: 2em;
+  }
+  .homeTextHeader, .aboutTextHeader, .contactTextHeader, .introTextHeader, .infoTextHeader, .footerTextHeader {
+    font-size: 3rem;
+  }
 }
 /*# sourceMappingURL=Main.css.map */

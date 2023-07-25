@@ -77,9 +77,9 @@ const Main = () => {
 
       <div className="section intro">
         <div className='introContent'>
-        <div className='IntroTextContent'>
-          <h2 className='IntroTextHeader'>Your ultimate Belote companion, anytime, anywhere!</h2>
-          <p className='IntroTextParagraph'> Discover the captivating world of Belote, where <br></br>strategy meets excitement, and friendships are forged through every<br></br> card played!Immerse yourself in the rich tradition of Belote, where every move counts, and <br></br>the thrill of outsmarting your opponents brings.<br></br> unparalleled satisfaction</p>
+        <div className='introTextContent'>
+          <h2 className='introTextHeader'>Your ultimate Belote companion, anytime, anywhere!</h2>
+          <p className='introTextParagraph'> Discover the captivating world of Belote, where <br></br>strategy meets excitement, and friendships are forged through every<br></br> card played!Immerse yourself in the rich tradition of Belote, where every move counts, and <br></br>the thrill of outsmarting your opponents brings.<br></br> unparalleled satisfaction</p>
         </div>
         <div className='phoneVertical'> <img className='verticalPhoneImage' src={thirdImage} alt="Belote" /></div>
         </div>
