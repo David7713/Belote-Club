@@ -79,7 +79,7 @@ const Main = () => {
         <div className='introContent'>
         <div className='introTextContent'>
           <h2 className='introTextHeader'>Your ultimate Belote companion, anytime, anywhere!</h2>
-          <p className='introTextParagraph'> Discover the captivating world of Belote, where <br></br>strategy meets excitement, and friendships are forged through every<br></br> card played!Immerse yourself in the rich tradition of Belote, where every move counts, and <br></br>the thrill of outsmarting your opponents brings.<br></br> unparalleled satisfaction</p>
+          <p className='introTextParagraph'> Discover the captivating world of Belote, where <br></br>strategy meets excitement, and friendships are forged through every<br></br> card played!Immerse yourself in the rich tradition of Belote, where every move counts, and <br></br>the thrill of outsmarting your opponents brings.</p>
         </div>
         <div className='phoneVertical'> <img className='verticalPhoneImage' src={thirdImage} alt="Belote" /></div>
         </div>
@@ -120,8 +120,10 @@ const Main = () => {
 
  <div className="section footer">   
     <div className='footerContent'>
+      <div className="footerTextContent">
         <h1 className='footerTextHeader'>Experience the Thrill of Belote, the Card Game Masterpiece!</h1>
         <p className='footerTextParagraph'>Play Anytime, Anywhere: No need to wait for a card-playing partner or gather a group of friends. Our app allows you<br></br> to enjoy Belote whenever and wherever you want,right from the palm of your hand.</p>
+        </div>
      <div className='linksSection'>
           <a href="https://t.me/BeloteClub" target="_blank"> <div className='telegram'></div> </a>
          <div className='socialMedia'>
