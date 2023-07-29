@@ -1,0 +1,61 @@
+/* FOOTER PAGE STYLES */
+
+.footer {
+    width: 100%;
+    height: 100vh;
+    background-color: #525e75c6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.footerContent {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.allRightsReservedSection {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+}
+
+.footerTextParagraph {
+    margin-top: 1rem;
+}
+
+/* MEDIA QUERIES */
+/* Adjustments for desktop devices */
+@media (min-width: 1024px) {
+
+    .footer {
+        padding: 0;
+    
+    }
+
+    .allRightsReservedSection {
+        margin-top: 0;
+      
+    }
+}
+
+
+/* Adjustments for tablet devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .footer {
+        padding: 1rem 0;
+    
+    }
+}
+
+@media (max-width:767px){
+    .footerTextContent{
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+}

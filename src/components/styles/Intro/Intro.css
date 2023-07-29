@@ -1,1 +1,68 @@
-/* No CSS *//*# sourceMappingURL=Intro.css.map */
+/* INTRO PAGE STYLES */
+.intro {
+  width: 100%;
+  height: 100vh;
+  background-color: #001233;
+}
+
+.introContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3rem;
+}
+
+.introTextHeader {
+  margin-bottom: 1.333rem;
+  font-size: 1.7rem;
+}
+
+/* MEDIA QUERIES  */
+/* Adjustments for desktop devices */
+@media (min-width: 1024px) {
+  .introTextHeader {
+    font-size: 1.7rem;
+  }
+}
+
+/* Adjustments for tablet devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .introContent {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-right: 1rem;
+  }
+  .introTextContent {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .introTextHeader {
+    font-size: 1.8rem;
+  }
+}
+
+/* Adjustments for mobile devices */
+@media (max-width: 767px) {
+  .introContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .introTextContent {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+  .introTextHeader {
+    font-size: 1.2rem;
+  }
+}
+/*# sourceMappingURL=Intro.css.map */
