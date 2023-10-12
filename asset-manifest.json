@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Belote-Club/static/css/main.992f12f1.css",
-    "main.js": "/Belote-Club/static/js/main.1e404025.js",
+    "main.css": "/Belote-Club/static/css/main.e250994e.css",
+    "main.js": "/Belote-Club/static/js/main.24498fe4.js",
     "static/media/secondImage.png": "/Belote-Club/static/media/secondImage.1a5e1e6754dcd4d812c9.png",
     "static/media/fourthImage.png": "/Belote-Club/static/media/fourthImage.7ec29c52876c79df9354.png",
     "static/media/thirdImage.png": "/Belote-Club/static/media/thirdImage.e7c3661962ffd176c3dc.png",
@@ -9,13 +9,13 @@
     "static/media/Playmarket.png": "/Belote-Club/static/media/Playmarket.6d729ba17df5877b31cc.png",
     "static/media/telegram.png": "/Belote-Club/static/media/telegram.a51ba106f9f1d3b15dc7.png",
     "static/media/Appstore.png": "/Belote-Club/static/media/Appstore.8cb34096b95b54533701.png",
-    "static/media/logo.svg": "/Belote-Club/static/media/logo.2b40e5d5db40f7aac2de.svg",
+    "static/media/logo.svg": "/Belote-Club/static/media/logo.2b40e5d5db40f7aac2de7773997b0438.svg",
     "index.html": "/Belote-Club/index.html",
-    "main.992f12f1.css.map": "/Belote-Club/static/css/main.992f12f1.css.map",
-    "main.1e404025.js.map": "/Belote-Club/static/js/main.1e404025.js.map"
+    "main.e250994e.css.map": "/Belote-Club/static/css/main.e250994e.css.map",
+    "main.24498fe4.js.map": "/Belote-Club/static/js/main.24498fe4.js.map"
   },
   "entrypoints": [
-    "static/css/main.992f12f1.css",
-    "static/js/main.1e404025.js"
+    "static/css/main.e250994e.css",
+    "static/js/main.24498fe4.js"
   ]
 }
