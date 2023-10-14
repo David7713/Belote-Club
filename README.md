@@ -4,6 +4,11 @@
 Welcome to Belote Companion, your go-to resource for everything you need to know about the classic card game, Belote. Whether you're a beginner looking to learn the basics or a seasoned player aiming to enhance your skills, this information-packed website is your ultimate companion. Explore comprehensive guides on game rules, strategies, and expert tips that will help you play Belote like a pro. Dive into our user-friendly interface to discover insightful articles, instructional videos, and interactive tutorials that cater to players of all levels. Elevate your Belote experience and become a master of the game with Belote Companion by your side. Let the cards fall in your favor!
 
 
+
+   ## Belote Main
+![App Screenshot](https://github.com/David7713/Belote-Club/blob/main/src/Screenshots/Main.png?raw=true)
+
+
 ## Front End
 
 
